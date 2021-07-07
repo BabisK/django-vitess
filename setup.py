@@ -5,9 +5,10 @@ with open("README.md", "r") as fh:
 
 setup(
     name="django-vitess",
-    version="0.0.1",
+    version="0.0.2",
     description="Custom database driver for Vitess.io",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     author="Babis Kaidos",
     author_email="ckaidos@intracom-telecom.com",
     url="https://github.com/BabisK/django-vitess",
